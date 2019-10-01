@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	line-height: 1;
+	background-image: url("../img/circle blues/circle-blues.png");
+	overflow: hidden;
+}
+
+#wrapper {
+	width:960px;
+	background-color: rgba(248,248,248,0.5);
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+header {
+	margin-left:10px;
+	width:950px;
+	margin: 0 auto;
+}
+
+#logo {
+	margin-left:40px;
+	width:190px;
+	float:left;
+}
+
+nav {
+	width:630px;
+	float:left;
+	margin:0 170px;
+	text-align:center;
+}
+
+ul {
+	margin-top:55px;
+}
+
+li {
+	display:inline;
+	margin-left:28px;
+	font-weight:bold;
+}
+
+main {
+	width:960px;
+	float:left;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	font-weight: bold;
+	padding-top: 42px;
+	border-top:#A22F31 solid thick;
+	margin-top:24px;
+}
+article{
+	width:960px;
+	background-color: aquamarine;
+}
+
+footer {
+	margin-left:30px;
+	width:950px;
+	clear:both;
+	float:left;
+	padding-top: 15px;
+	border-top:#FF0004 solid thick;
+	margin-top: 24px;
+	font-size: small;
+}
+
+.column {
+	width:220px;
+	float:left;
+	margin:0 10px;
+}
+
+
+
+
