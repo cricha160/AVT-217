@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	width: 1051px;
+	height: 981px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+header {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 2em;
+	color: #690A0B;
+	background-color:#D6B82E;
+	padding-bottom: 18px;
+}
+
+li {
+	display: inline;
+	margin-left: 25px;
+}
+
+#wrapper {
+	width: 1024px;
+	height: 550px;
+	background-color: #F0EFEF;
+	margin: 0 auto;
+}
+
+footer {
+	width: 1024px;
+	clear: both;
+	float: left;
+	padding-top: 15px;
+	border-top:#FF004 solid thick;
+	margin-top: 24px;
+	height: 42px;
+	background-color:#FFCF00;
+	font-family: Myriad Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-weight: bold;
+	color:#7C0A0C;
+}
+
+h1 {
+	padding-top: 133px;
+}
+
+a {
+	margin-right: 59px;
+}
+
+.text {
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	line-height: 2em;
+	float: right;
+	margin-bottom: 400px;
+	margin-left: 400px;
+	font-size: 2.6em;
+	width: 550px; 
+	height: 177px;
+	color: #FFFFFF;
+	
+}
+
+h2 {
+	width: 577px;
+	height: 85px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-left: 100px;
+	padding-left: 60px;
+	margin-top: -200px;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size:1.5em;
+	color:#8E090B;
+	font-weight:bold;
+}
+
+.menu {
+	width: 400px;
+	height: 74px;
+	margin-left: 550px;;
+	font-size: 2.9em;
+	background-color:#9B1D1F;
+	padding: 4px;
+	color:#EEEEEE;
+}
+
+p {
+	font-size: 24px; 
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	color:black;
+	width: 400px;
+	height: 84px;
+}
+
+body {
+	width: 1024px;
+	height: 917px;
+}
+
+.burger {
+	background-image: url("../img/barbecue-bbq-burger-2282537.jpg") ;
+	width: 1024px;
+	height: 550px;
+}
+
+
+.new {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 150px;
+	position: relative;
+	font-size: 2.2em;
+	color: #8E090B;
+	font-weight: bold;
+	border-color:#000000;
+	width:1024px;
+	height:50px;
+}
+
+#row {
+	float: left;
+	width:1024px;
+	text-align: center;
+}
+.img{
+	float:left;
+	width:337px;
+}
+
+.text {
+	margin-bottom: 20px;
+}
+
+header {
+	border-bottom:3px;
+	border-style: solid;
+	border-color:#232323
+}
